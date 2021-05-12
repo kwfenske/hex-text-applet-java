@@ -1,0 +1,65 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Keith Fenske">
+   <meta name="GENERATOR" content="Mozilla/4.8 [en] (Windows NT 5.0; U) [Netscape]">
+   <title>Hexadecimal Text - by: Keith Fenske</title>
+</head>
+<body background="ffcccc.gif">
+<center><applet code="HexText2.class" archive="hextex2b.jar" width="95%" height="90%">
+<p><b><font size=+1>Sorry, your browser does not support Java.</font></b></applet></center>
+<p>This is a Java Swing applet to convert between text characters and decimal
+or hexadecimal digits representing those characters.&nbsp; You have several
+options for the converted digits: decimal (base 10) or hexadecimal (base
+16), 8-bit "plain text" bytes, 16-bit combined words, 16-bit "big endian"
+bytes, 16-bit "little endian" bytes, etc.&nbsp; Input characters that are
+not valid digits are ignored during conversion and are treated as white
+space or separators.&nbsp; Leading zeros may be omitted unless the digits
+run together without separators.
+<p>The term "big endian" means that a 16-bit number is represented by two
+8-bit bytes with the high-order (most significant) byte appearing first.&nbsp;
+"Little endian" has the low-order (least significant) byte appearing first:
+<p><center><table>
+<tr>
+<td>16-bit combined word:</td>
+<td>&nbsp;</td>
+<td>1234 (hex)</td>
+</tr>
+<tr>
+<td>16-bit "big endian" bytes:</td>
+<td></td>
+<td>12 34</td>
+</tr>
+<tr>
+<td>16-bit "little endian" bytes:</td>
+<td></td>
+<td>34 12</td>
+</tr>
+</table></center>
+<p>Results vary depending upon your browser, your version of Java, and
+your system's character set.&nbsp; Note that Java Swing may not allow copy
+and paste from the system clipboard, only from within the applet (between
+the input and output text areas).
+<p><hr>
+<p><a NAME="java"></a>If this web page begins with an error message saying
+that your browser does not support Java, then either your computer doesn't
+have Java, or Java is not enabled.&nbsp; If you see an empty rectangle
+where the applet should be, then you have Java but need a newer browser
+or a newer version of Java.&nbsp; For Internet Explorer 5 or later, Firefox,
+Mozilla, and Netscape 7.x or later on Windows, you may download the Sun
+Java run-time environment (JRE) from <a href="http://www.java.com/getjava/">http://www.java.com/getjava/</a>
+on Sun's web site.&nbsp; This program was written on and tested against
+Sun Java 1.4.
+<p>The <a href="hextex2c.txt">source code</a> for this applet is available
+for inspection.&nbsp; You may also <a href="hextex2d.zip">download the
+application</a> as a <a href="freesoft.htm#zip">ZIP archive</a> with the
+executable Java class file and the documentation in <a href="freesoft.htm#acrobat">Adobe
+Acrobat</a> PDF format.&nbsp; Writing a similar Java program is an assignment
+for students.&nbsp; More programming assignments and solutions can be found
+on my "<a href="cpindex.htm">Computer Programming Examples</a>" web page.
+<p>Copyright (c) 2005 by Keith Fenske.&nbsp; Released under the GNU General
+Public License (GPL).
+<p><hr>
+</body>
+</html>
